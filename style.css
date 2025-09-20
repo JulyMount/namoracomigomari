@@ -1,0 +1,54 @@
+/* Importa uma fonte fofinha do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: #fce4ec; /* Rosa bem clarinho */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #c2185b; /* Rosa escuro */
+    font-family: 'Pacifico', cursive; /* Fonte especial para os títulos */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#yesBtn {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+#yesBtn:hover {
+    transform: scale(1.1);
+}
+
+#noBtn {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+    position: absolute; /* Essencial para o botão fugir */
+}
